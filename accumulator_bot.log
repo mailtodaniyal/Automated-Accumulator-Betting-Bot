@@ -1,0 +1,12 @@
+2025-10-11 12:46:04,582 - INFO - Starting accumulator bot run at 2025-10-11T07:46:04.581847
+2025-10-11 12:46:04,639 - INFO - Logging in as test_user
+2025-10-11 12:46:04,762 - INFO - Authenticated, session token: session-13278
+2025-10-11 12:46:04,827 - INFO - Fetching matches for accumulator build (mode=top, legs=4)
+2025-10-11 12:46:04,927 - INFO - Selected legs: ['M009', 'M012', 'M007', 'M018']
+2025-10-11 12:46:04,969 - INFO - Placing accumulator with stake 5.0 on 4 legs
+2025-10-11 12:46:05,057 - INFO - Placement result: {'bet_id': 'B1000', 'status': 'ACCEPTED', 'total_odd': 69.06, 'potential_return': 345.32}
+2025-10-11 12:46:05,090 - INFO - Confirming bet id B1000
+2025-10-11 12:46:05,123 - INFO - Bet info: {'bet_id': 'B1000', 'user': 'test_user', 'legs': [{'match_id': 'M009', 'selection': 'Team9A vs Team9B', 'odds': 3.19, 'available': True}, {'match_id': 'M012', 'selection': 'Team12A vs Team12B', 'odds': 2.94, 'available': True}, {'match_id': 'M007', 'selection': 'Team7A vs Team7B', 'odds': 2.8, 'available': True}, {'match_id': 'M018', 'selection': 'Team18A vs Team18B', 'odds': 2.63, 'available': True}], 'stake': 5.0, 'placed_at': '2025-10-11T07:46:05.056765', 'status': 'ACCEPTED', 'total_odd': 69.06, 'potential_return': 345.32}
+2025-10-11 12:46:05,175 - INFO - FINAL: bet_id=B1000 stake=5.00 total_odd=69.06 potential_return=345.32
+2025-10-11 12:46:05,299 - INFO - Persisted bet to placed_bets.jsonl
+2025-10-11 12:46:05,320 - INFO - Run completed
